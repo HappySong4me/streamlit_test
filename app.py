@@ -1,8 +1,8 @@
 import streamlit as st
 
-st.title('Hello World!')
+st.title('Hi, Streamlit')
 
-st.info("숨고숨고")
-agree = st.checkbox("I agree")
+st.info("파이참 어려워")
+agree = st.checkbox("Do you agree?")
 if agree:
-    st.write("Great")
+    st.write("Me, too!")
